@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+ 
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+ 
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+ 
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+ 
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+ 
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+ 
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+ 
+    --radius: 0.5rem;
+
+    /* Custom Sky color from user example */
+    --sky-400: 199 96% 61%; /* approx hsl(199, 96%, 61%) */
+    --sky-300: 198 93% 70%; /* approx hsl(198, 93%, 70%) */
+    --sky-500: 199 89% 53%; /* approx hsl(199, 89%, 53%) */
+    --sky-700: 203 90% 40%; /* approx hsl(203, 90%, 40%) */
+    --sky-900: 206 100% 16%; /* approx hsl(206, 100%, 16%) */
+
+    /* Custom Slate colors from user example */
+    --slate-200: 215 16% 84%; /* approx hsl(215, 16%, 84%) */
+    --slate-300: 215 14% 71%; /* approx hsl(215, 14%, 71%) */
+    --slate-400: 215 14% 65%; /* approx hsl(215, 14%, 65%) */
+
+    /* Backgrounds from user example */
+    --bg-dark: 222 47% 11%; /* #0F172A approx hsl(222, 47%, 11%) */
+    --bg-card: 220 26% 15%; /* #1E293B approx hsl(220, 26%, 15%) */
+  }
+ 
+  /* No need for .dark class definition here if using ["class"] strategy in tailwind.config.js */
+}
+ 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* Remove old custom styles if they conflict */
+/* Keep necessary base styles */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Add smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
