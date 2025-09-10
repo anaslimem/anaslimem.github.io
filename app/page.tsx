@@ -60,15 +60,14 @@ export default function Portfolio() {
         </div>
       </header>
 
-      {/* Profile Section */}
+      {/* About Me Section */}
       <section className="mb-12">
-        <h2 className="text-2xl font-bold mb-4">Profile</h2>
+        <h2 className="text-2xl font-bold mb-4">About Me</h2>
         <p className="mb-4">
           I'm a junior machine learning and AI engineer passionate about transforming ideas into reality through end-to-end projects. I dive into new technologies whether it's mastering the latest deep learning frameworks or exploring innovative algorithms. When I'm not coding, I'm experimenting with new tools, optimizing models. I am always eager to learn and take on new challenges in the ever-evolving field of AI.
         </p>
         <hr className="my-8 border-gray-200" />
       </section>
-
       {/* Professional Experience Section */}
       <section className="mb-12">
         <h2 className="text-2xl font-bold mb-4">Professional Experience</h2>
@@ -116,6 +115,22 @@ export default function Portfolio() {
             <strong>AI-Career-Mentor</strong><br />
             AI-Career-Mentor is a cloud-native, AI-powered application that helps users analyze CVs, match them against job requirements, detect skill gaps, and generate personalized learning roadmaps.<br />
             <Link href="https://github.com/anaslimem/AI-Career-Mentor" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">Repository link</Link>
+          </li>
+        </ul>
+        <hr className="my-8 border-gray-200" />
+      </section>
+
+      {/* Blog Section */}
+      <section className="mb-12">
+        <h2 className="text-2xl font-bold mb-4">Blogs</h2>
+        <ul className="list-disc pl-6 space-y-4">
+          <li>
+            <strong>Mastering Learning Rate Schedulers in Deep Learning</strong><br />
+            <a href="https://medium.com/@limemanas0/mastering-learning-rate-schedulers-in-deep-learning-38790635cf71" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">Read on Medium</a>
+          </li>
+          <li>
+            <strong>CV Extraction Isn’t as Easy as I Thought</strong><br />
+            <a href="https://medium.com/@limemanas0/cv-extraction-isnt-as-easy-as-i-thought-7f92807e3aae" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">Read on Medium</a>
           </li>
         </ul>
         <hr className="my-8 border-gray-200" />
