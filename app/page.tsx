@@ -125,6 +125,10 @@ export default function Portfolio() {
         <h2 className="text-2xl font-bold mb-4">Blogs</h2>
         <ul className="list-disc pl-6 space-y-4">
           <li>
+            <strong>Understanding REFRAG: Efficient LLM Compression and Curriculum Learning Explained</strong><br />
+            <a href="https://medium.com/@limemanas0/understanding-refrag-efficient-llm-compression-and-curriculum-learning-explained-3452498f99e8" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">Read on Medium</a>
+          </li>
+          <li>
             <strong>Mastering Learning Rate Schedulers in Deep Learning</strong><br />
             <a href="https://medium.com/@limemanas0/mastering-learning-rate-schedulers-in-deep-learning-38790635cf71" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">Read on Medium</a>
           </li>
