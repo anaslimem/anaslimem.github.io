@@ -126,14 +126,17 @@ export default function Portfolio() {
         <ul className="list-disc pl-6 space-y-4">
           <li>
             <strong>Understanding REFRAG: Efficient LLM Compression and Curriculum Learning Explained</strong><br />
+            <p>Explains how REFRAG improves LLM efficiency with curriculum learning.</p>
             <a href="https://medium.com/@limemanas0/understanding-refrag-efficient-llm-compression-and-curriculum-learning-explained-3452498f99e8" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">Read on Medium</a>
           </li>
           <li>
             <strong>Mastering Learning Rate Schedulers in Deep Learning</strong><br />
+            <p>A practical guide to choosing and using learning rate schedules for better training results.</p>
             <a href="https://medium.com/@limemanas0/mastering-learning-rate-schedulers-in-deep-learning-38790635cf71" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">Read on Medium</a>
           </li>
           <li>
             <strong>CV Extraction Isn’t as Easy as I Thought</strong><br />
+            <p>Lessons learned and technical challenges faced while building a CV parsing tool.</p>
             <a href="https://medium.com/@limemanas0/cv-extraction-isnt-as-easy-as-i-thought-7f92807e3aae" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">Read on Medium</a>
           </li>
         </ul>
