@@ -290,7 +290,7 @@ export default function Portfolio() {
   {/* IEEE Chair / Vice Chair Info */}
   <div className="space-y-8 text-gray-800">
     <div>
-      <strong>IEEE Computer Society Chapter — Vice Chair</strong>{" "}
+      <strong>IEEE Computer Society Chapter — Chair</strong>{" "}
       <span className="text-gray-500">2024 – Present</span>
       <p className="mt-2 leading-relaxed">
         As Chair of the IEEE Computer Society Chapter at ISSAT Mateur, I led and co-organized multiple large-scale tech events and hands-on workshops focused on AI, web development, and innovation. My role focused on inspiring students to explore modern technologies, promoting collaboration between chapters, and delivering real-world technical experiences.
@@ -299,7 +299,14 @@ export default function Portfolio() {
 
     {/* Choufli Code Event */}
     <div className="border border-gray-200 rounded-2xl p-4 shadow-sm hover:shadow-md transition">
-      <h3 className="font-semibold text-lg mb-2">🎭 Choufli Code — Tech Comedy Event</h3>
+      <h3 className="font-semibold text-lg mb-2"> Choufli Code — CP Event</h3>
+      <Image
+          src="/choufli_code.jpg"
+          alt="Choufli Code Event Photo"
+          width={400}
+          height={250}
+          className="rounded-xl object-cover border border-gray-200"
+      />
       <p className="text-gray-700 mb-3">
         Organized a creative event about competitive programming blended technology and entertainment to engage students in a fun, community-driven atmosphere, enhancing interest in computer science and teamwork.
       </p>
@@ -314,7 +321,15 @@ export default function Portfolio() {
 
     {/* Bizerte Collaboration */}
     <div className="border border-gray-200 rounded-2xl p-4 shadow-sm hover:shadow-md transition">
-      <h3 className="font-semibold text-lg mb-2">🤝 Bizerte T-Codi Collaboration</h3>
+      <h3 className="font-semibold text-lg mb-2">Bizerte TCodi Collaboration</h3>
+      <Image
+          src="/bizerte_tcodi.jpg"
+          alt="Bizerte TCodi Event Photo"
+          width={400}
+          height={250}
+          className="rounded-xl object-cover border border-gray-200"
+        />
+        
       <p className="text-gray-700 mb-3">
         Collaborated with the IEEE Student Branch of Bizerte to host a cross-chapter initiative focused on coding, innovation, and problem-solving fostering teamwork and knowledge exchange between national student communities.
       </p>
@@ -326,10 +341,31 @@ export default function Portfolio() {
         View Collaboration Page
       </a>
     </div>
+    {/* Codex Event */}
+    <div className="border border-gray-200 rounded-2xl p-4 shadow-sm hover:shadow-md transition">
+      <h3 className="font-semibold text-lg mb-2">Codex — Problem Solving Collaboration </h3>
+        <Image
+          src="/codex.jpg"
+          alt="Codex Event Photo"
+          width={400}
+          height={250}
+          className="rounded-xl object-cover border border-gray-200"
+        />
+      <p className="text-gray-700 mb-3">
+        Organized an event for new students to introduce them to problem solving with IEEE CS ENETCOM, IEEE CS ISIMM and IEEE CS ESPRIT, featuring workshops and talks from industry experts to inspire innovative thinking among students.
+      </p>
+      <a
+        href="https://www.facebook.com/permalink.php?story_fbid=pfbid038GmFFVFjHataUChpM8Pq4Z6y5McTHYAvB7cThYDAFcMBsL5xj5hsRTFeWZQz31Qol&id=61551019357834"
+        target="_blank"
+        className="text-blue-500 hover:underline"
+      >
+        View Event
+      </a>
+    </div>
 
     {/* AI Chatbot Workshop */}
     <div className="border border-gray-200 rounded-2xl p-4 shadow-sm hover:shadow-md transition">
-      <h3 className="font-semibold text-lg mb-2">🧠 AI Workshop — Building a Chatbot from Scratch</h3>
+      <h3 className="font-semibold text-lg mb-2">AI Workshop — Building a Chatbot</h3>
       <div className="flex flex-col sm:flex-row sm:items-center gap-4">
         <Image
           src="/chatbot_workshop.jpg"
@@ -344,18 +380,11 @@ export default function Portfolio() {
           </p>
           <div className="flex flex-col gap-1">
             <a
-              href="https://www.facebook.com/permalink.php?story_fbid=pfbid038GmFFVFjHataUChpM8Pq4Z6y5McTHYAvB7cThYDAFcMBsL5xj5hsRTFeWZQz31Qol&id=61551019357834"
-              target="_blank"
-              className="text-blue-500 hover:underline"
-            >
-              Event Post
-            </a>
-            <a
               href="https://www.facebook.com/photo.php?fbid=122226139406033978&set=pb.61551019357834.-2207520000&type=3"
               target="_blank"
               className="text-blue-500 hover:underline"
             >
-              Workshop Photos
+              Workshop Post
             </a>
           </div>
         </div>
