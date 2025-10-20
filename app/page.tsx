@@ -88,13 +88,13 @@ export default function Portfolio() {
       <section className="mb-12">
         <h2 className="text-2xl font-bold mb-4">About Me</h2>
         <p className="mb-4 text-gray-800 leading-relaxed">
-          I'm a passionate AI and Machine Learning Engineer focused on building
+          I'm an AI and Machine Learning Engineer focused on building
           intelligent systems and autonomous AI agents. I enjoy transforming
           innovative ideas into practical, end-to-end solutions. My experience
           focuses on developing multi-agent frameworks, optimizing LLM pipelines,
           integrating vector databases, and deploying scalable AI services.
           Always eager to explore new technologies, I aim to design systems that
-          think, adapt, and learn — just like humans.
+          think, adapt, and learn .
         </p>
         <hr className="my-8 border-gray-200" />
       </section>
