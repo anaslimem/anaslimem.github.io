@@ -1,23 +1,29 @@
-
-import Image from "next/image"
-import Link from "next/link"
-import { SiHuggingface, SiX, SiGithub, SiLinkedin, SiMailboxdotorg } from "react-icons/si";
+import Image from "next/image";
+import Link from "next/link";
+import {
+  SiHuggingface,
+  SiX,
+  SiGithub,
+  SiLinkedin,
+  SiMailboxdotorg,
+} from "react-icons/si";
 
 export default function Portfolio() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
-      {/* Resume Button at Top */}
+      {/* Resume Button */}
       <div className="flex justify-end mb-4">
         <a
           href="/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block px-4 py-2  text-black font-semibold rounded shadow"
+          className="inline-block px-4 py-2 bg-gray-900 text-white font-semibold rounded shadow hover:bg-gray-700 transition"
         >
           View Resume
         </a>
       </div>
-      {/* Header Section */}
+
+      {/* Header */}
       <header className="text-center mb-8">
         <div className="flex flex-col items-center mb-4">
           <div className="relative w-40 h-40 mb-4 rounded-full overflow-hidden">
@@ -31,135 +37,269 @@ export default function Portfolio() {
             />
           </div>
           <h1 className="text-3xl font-bold mb-1">Anas Limem</h1>
-          <span className="text-lg text-gray-700 font-semibold mb-1">Machine Learning Engineer</span>
+          <span className="text-lg text-gray-700 font-semibold mb-1">
+            AI & Machine Learning Engineer
+          </span>
           <span className="text-gray-700">Tunisia</span>
           <span className="text-gray-700">limemanas0@gmail.com</span>
-          <span className="text-gray-700">+216 21293957</span>
+          <span className="text-gray-700">+216 21 293 957</span>
         </div>
+
+        {/* Social Links */}
         <div className="flex justify-center gap-3 mb-4">
-          <Link href="https://github.com/anaslimem" className="p-2 bg-gray-800 text-white rounded-full hover:bg-gray-700" target="_blank" rel="noopener noreferrer">
+          <Link
+            href="https://github.com/anaslimem"
+            className="p-2 bg-gray-800 text-white rounded-full hover:bg-gray-700"
+            target="_blank"
+          >
             <SiGithub size={20} />
-            <span className="sr-only">GitHub</span>
           </Link>
-          <Link href="https://www.linkedin.com/in/anaslimem/" className="p-2 bg-gray-800 text-white rounded-full hover:bg-gray-700" target="_blank" rel="noopener noreferrer">
+          <Link
+            href="https://www.linkedin.com/in/anaslimem/"
+            className="p-2 bg-gray-800 text-white rounded-full hover:bg-gray-700"
+            target="_blank"
+          >
             <SiLinkedin size={20} />
-            <span className="sr-only">LinkedIn</span>
           </Link>
-          <Link href="https://x.com/limemanas0" className="p-2 bg-gray-800 text-white rounded-full hover:bg-gray-700" target="_blank" rel="noopener noreferrer">
+          <Link
+            href="https://x.com/limemanas0"
+            className="p-2 bg-gray-800 text-white rounded-full hover:bg-gray-700"
+            target="_blank"
+          >
             <SiX size={20} />
-            <span className="sr-only">X</span>
           </Link>
-          <Link href="https://huggingface.co/Anaslimem1" className="p-2 bg-gray-800 text-white rounded-full hover:bg-gray-700" target="_blank" rel="noopener noreferrer">
+          <Link
+            href="https://huggingface.co/Anaslimem1"
+            className="p-2 bg-gray-800 text-white rounded-full hover:bg-gray-700"
+            target="_blank"
+          >
             <SiHuggingface size={20} />
-            <span className="sr-only">Hugging Face</span>
           </Link>
-          <Link href="mailto:limemanas0@gmail.com" className="p-2 bg-gray-800 text-white rounded-full hover:bg-gray-700" target="_blank" rel="noopener noreferrer">
+          <Link
+            href="mailto:limemanas0@gmail.com"
+            className="p-2 bg-gray-800 text-white rounded-full hover:bg-gray-700"
+          >
             <SiMailboxdotorg size={20} />
-            <span className="sr-only">Email</span>
           </Link>
         </div>
       </header>
 
-      {/* About Me Section */}
+      {/* About Me */}
       <section className="mb-12">
         <h2 className="text-2xl font-bold mb-4">About Me</h2>
-        <p className="mb-4">
-          I'm a junior machine learning and AI engineer passionate about transforming ideas into reality through end-to-end projects. I dive into new technologies whether it's mastering the latest deep learning frameworks or exploring innovative algorithms. When I'm not coding, I'm experimenting with new tools, optimizing models. I am always eager to learn and take on new challenges in the ever-evolving field of AI.
+        <p className="mb-4 text-gray-800 leading-relaxed">
+          I'm a passionate AI and Machine Learning Engineer focused on building
+          intelligent systems and autonomous AI agents. I enjoy transforming
+          innovative ideas into practical, end-to-end solutions. My experience
+          spans developing multi-agent frameworks, optimizing LLM pipelines,
+          integrating vector databases, and deploying scalable AI services.
+          Always eager to explore new technologies, I aim to design systems that
+          think, adapt, and learn — just like humans.
         </p>
         <hr className="my-8 border-gray-200" />
       </section>
-      {/* Professional Experience Section */}
+
+      {/* Professional Experience */}
       <section className="mb-12">
         <h2 className="text-2xl font-bold mb-4">Professional Experience</h2>
-        <ul className="list-disc pl-6 space-y-4">
+        <ul className="list-disc pl-6 space-y-6 text-gray-800">
           <li>
-            <strong>Vision Age VFX</strong> - Machine Learning Engineer Intern <span className="text-gray-500">09/2025 – Present</span><br />
-            • Engineered a feedback model that automatically generates insightful reports tailored to user-specific criteria, improving decision making efficiency.<br />
-            • Built a machine learning recommendation system that identifies and suggests top performing users, enhancing engagement and matching accuracy.
+            <strong>DrugIT</strong> — AI Engineer Intern{" "}
+            <span className="text-gray-500">10/2025 – Present</span>
+            <br />
+            • Developed 4 autonomous AI agents using Google’s ADK framework to
+            enhance pharmaceutical intelligence.<br />
+            • Deployed multi-agent systems across 4 MCP servers, improving data
+            retrieval and automation.<br />
+            • Integrated Neo4j as a graph database for knowledge mapping and
+            entity linking.
           </li>
           <li>
-            <strong>BlueBlood</strong> - NLP Engineer Intern <span className="text-gray-500">02/2024 – 05/2024</span><br />
-            • Designed and implemented a parser to extract structured data from diverse CV formats and enhanced semantic understanding using LLM APIs.<br />
-            • Built a similarity-matching system to rank candidate profiles based on relevance.<br />
-            • Managed and queried candidate embeddings efficiently using a vector database.
+            <strong>Vision Age VFX</strong> — AI Intern{" "}
+            <span className="text-gray-500">09/2025 – 11/2025</span>
+            <br />
+            • Built a feedback-driven model that automatically generates metric
+            reports from performance data.<br />
+            • Integrated an LLM for contextual report generation, reducing
+            manual analysis time by 20%.
+          </li>
+          <li>
+            <strong>BlueBlood</strong> — NLP Engineer Intern{" "}
+            <span className="text-gray-500">02/2025 – 05/2025</span>
+            <br />
+            • Designed a robust CV parser for diverse document formats,
+            increasing extraction accuracy by 30%.<br />
+            • Enhanced semantic matching of candidate profiles using LLM APIs
+            and FAISS for vector search.<br />
+            • Improved top-ranked retrieval precision by 20%.
           </li>
         </ul>
         <hr className="my-8 border-gray-200" />
       </section>
 
-      {/* Education Section */}
+      {/* Education */}
       <section className="mb-12">
         <h2 className="text-2xl font-bold mb-4">Education</h2>
         <ul className="list-disc pl-6 space-y-2">
-          <li>Higher Institute of Applied Sciences and Technology of Mateur<br />B.Sc. in Computer Science <span className="text-gray-500">09/2023 – Present</span></li>
-          <li>El Alia High School<br />Baccalaureate of Mathematics <span className="text-gray-500">09/2019 – 06/2023</span></li>
+          <li>
+            <strong>
+              Higher Institute of Applied Sciences and Technology of Mateur
+            </strong>
+            <br />
+            B.Sc. in Computer Science{" "}
+            <span className="text-gray-500">09/2023 – Present</span>
+          </li>
+          <li>
+            <strong>El Alia High School</strong>
+            <br />
+            Baccalaureate of Mathematics{" "}
+            <span className="text-gray-500">2023</span>
+          </li>
         </ul>
         <hr className="my-8 border-gray-200" />
       </section>
 
-      {/* Projects Section */}
+      {/* Projects */}
       <section className="mb-12">
         <h2 className="text-2xl font-bold mb-4">Projects</h2>
         <ul className="list-disc pl-6 space-y-4">
           <li>
-            <strong>Optimizers-from-Scratch</strong><br />
-            Implemented a tiny MLP to classify MNIST digits, building both forward and backward passes from scratch without relying on autograd. Explored core concepts of neural network optimization and gradient computation.<br />
-            <Link href="https://github.com/anaslimem/Optimizers-from-Scratch" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">Repository link</Link>
-          </li>
-          <li>
             <strong>VectorMind AI</strong><br />
-            An AI-powered platform enabling interaction with your documents. Upload PDFs, text files, or paste raw text, and receive accurate, context-aware responses powered by advanced language models. Designed for document search, knowledge extraction, and intelligent Q&A.<br />
-            <Link href="https://github.com/anaslimem/VectorMind-AI" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">Repository link</Link>
+            AI-powered document Q&A platform with LLM integration, allowing
+            context-aware responses using FAISS and LangChain.<br />
+            <Link
+              href="https://github.com/anaslimem/VectorMind-AI"
+              className="text-blue-500 hover:underline"
+              target="_blank"
+            >
+              Repository link
+            </Link>
           </li>
           <li>
             <strong>AI-Career-Mentor</strong><br />
-            AI-Career-Mentor is a cloud-native, AI-powered application that helps users analyze CVs, match them against job requirements, detect skill gaps, and generate personalized learning roadmaps.<br />
-            <Link href="https://github.com/anaslimem/AI-Career-Mentor" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">Repository link</Link>
+            Cloud-native AI application that analyzes CVs, detects skill gaps,
+            and generates personalized learning roadmaps.<br />
+            <Link
+              href="https://github.com/anaslimem/AI-Career-Mentor"
+              className="text-blue-500 hover:underline"
+              target="_blank"
+            >
+              Repository link
+            </Link>
+          </li>
+          <li>
+            <strong>Optimizers-from-Scratch</strong><br />
+            Implemented a neural network from scratch to classify MNIST digits,
+            achieving 97% accuracy and mastering backpropagation mechanics.<br />
+            <Link
+              href="https://github.com/anaslimem/Optimizers-from-scratch"
+              className="text-blue-500 hover:underline"
+              target="_blank"
+            >
+              Repository link
+            </Link>
           </li>
         </ul>
         <hr className="my-8 border-gray-200" />
       </section>
 
-      {/* Blog Section */}
+      {/* Certificates */}
       <section className="mb-12">
-        <h2 className="text-2xl font-bold mb-4">Blogs</h2>
+        <h2 className="text-2xl font-bold mb-4">Certificates</h2>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>
+            Machine Learning Specialization — Coursera
+          </li>
+          <li>
+            Generative AI with Diffusion Models — NVIDIA
+          </li>
+          <li>
+            Building Transformer-Based NLP Applications — NVIDIA
+          </li>
+          <li>
+            Getting Started with Deep Learning — NVIDIA
+          </li>
+          <li>
+            Fundamentals of Accelerated Computing with CUDA Python — NVIDIA
+          </li>
+        </ul>
+        <hr className="my-8 border-gray-200" />
+      </section>
+
+      {/* Blogs */}
+      <section className="mb-12">
+        <h2 className="text-2xl font-bold mb-4">Publications & Blogs</h2>
         <ul className="list-disc pl-6 space-y-4">
           <li>
-            <strong>Understanding REFRAG: Efficient LLM Compression and Curriculum Learning Explained</strong><br />
-            <p>Explains how REFRAG improves LLM efficiency with curriculum learning.</p>
-            <a href="https://medium.com/@limemanas0/understanding-refrag-efficient-llm-compression-and-curriculum-learning-explained-3452498f99e8" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">Read on Medium</a>
+            <strong>
+              Understanding REFRAG: Efficient LLM Compression and Curriculum
+              Learning Explained
+            </strong>
+            <br />
+            <a
+              href="https://medium.com/@limemanas0/understanding-refrag-efficient-llm-compression-and-curriculum-learning-explained-3452498f99e8"
+              className="text-blue-500 hover:underline"
+              target="_blank"
+            >
+              Read on Medium
+            </a>
           </li>
           <li>
-            <strong>Mastering Learning Rate Schedulers in Deep Learning</strong><br />
-            <p>A practical guide to choosing and using learning rate schedules for better training results.</p>
-            <a href="https://medium.com/@limemanas0/mastering-learning-rate-schedulers-in-deep-learning-38790635cf71" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">Read on Medium</a>
+            <strong>
+              Mastering Learning Rate Schedulers in Deep Learning
+            </strong>
+            <br />
+            <a
+              href="https://medium.com/@limemanas0/mastering-learning-rate-schedulers-in-deep-learning-38790635cf71"
+              className="text-blue-500 hover:underline"
+              target="_blank"
+            >
+              Read on Medium
+            </a>
           </li>
           <li>
-            <strong>CV Extraction Isn’t as Easy as I Thought</strong><br />
-            <p>Lessons learned and technical challenges faced while building a CV parsing tool.</p>
-            <a href="https://medium.com/@limemanas0/cv-extraction-isnt-as-easy-as-i-thought-7f92807e3aae" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">Read on Medium</a>
+            <strong>CV Extraction Isn’t as Easy as I Thought</strong>
+            <br />
+            <a
+              href="https://medium.com/@limemanas0/cv-extraction-isnt-as-easy-as-i-thought-7f92807e3aae"
+              className="text-blue-500 hover:underline"
+              target="_blank"
+            >
+              Read on Medium
+            </a>
           </li>
         </ul>
         <hr className="my-8 border-gray-200" />
       </section>
 
-      {/* Skills Section */}
+      {/* Skills */}
       <section className="mb-12">
-        <h2 className="text-2xl font-bold mb-4">Skills</h2>
+        <h2 className="text-2xl font-bold mb-4">Technical Skills</h2>
         <div className="flex flex-wrap gap-2 pl-2">
-          <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=flat" alt="Python" className="h-5" />
-          <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white&style=flat" alt="PyTorch" className="h-5" />
-          <img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white&style=flat" alt="TensorFlow" className="h-5" />
-          <img src="https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white&style=flat" alt="scikit-learn" className="h-5" />
-          <img src="https://img.shields.io/badge/LangChain-0C8CE9?style=flat" alt="LangChain" className="h-5" />
-          <img src="https://img.shields.io/badge/Ollama-000000?style=flat" alt="Ollama" className="h-5" />
-          <img src="https://img.shields.io/badge/FAISS-005F9E?style=flat" alt="FAISS" className="h-5" />
-          <img src="https://img.shields.io/badge/ChromaDB-FF0080?style=flat" alt="ChromaDB" className="h-5" />
-          <img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white&style=flat" alt="FastAPI" className="h-5" />
-          <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=flat" alt="Docker" className="h-5" />
-          <img src="https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white&style=flat" alt="Kubernetes" className="h-5" />
-          <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white&style=flat" alt="GitHub Actions" className="h-5" />
-          <img src="https://img.shields.io/badge/Azure%20Blob%20Storage-0078D4?logo=microsoftazure&logoColor=white&style=flat" alt="Azure Blob Storage" className="h-5" />
+          {[
+            "Python",
+            "PyTorch",
+            "TensorFlow",
+            "LangChain",
+            "CrewAI",
+            "ADK",
+            "FAISS",
+            "ChromaDB",
+            "FastAPI",
+            "Neo4j",
+            "PostgreSQL",
+            "Docker",
+            "Kubernetes",
+            "GitHub Actions",
+            "Azure Blob Storage",
+          ].map((skill) => (
+            <span
+              key={skill}
+              className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm font-medium shadow-sm"
+            >
+              {skill}
+            </span>
+          ))}
         </div>
         <hr className="my-8 border-gray-200" />
       </section>
@@ -169,5 +309,5 @@ export default function Portfolio() {
         <p>© {new Date().getFullYear()} - Anas Limem</p>
       </footer>
     </div>
-  )
+  );
 }
