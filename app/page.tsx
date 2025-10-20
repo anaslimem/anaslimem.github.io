@@ -325,7 +325,7 @@ export default function Portfolio() {
 
     {/* Bizerte Collaboration */}
     <div className="border border-gray-200 rounded-2xl p-4 shadow-sm hover:shadow-md transition">
-      <h3 className="font-semibold text-lg mb-2">Bizerte TCodi Collaboration</h3>
+      <h3 className="font-semibold text-lg mb-2">Bizerte TCodi - CP Collaboration</h3>
       <div className="flex flex-col sm:flex-row sm:items-center gap-4">
         <Image
           src="/bizerte_tcodi.jpg"
