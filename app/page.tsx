@@ -300,50 +300,58 @@ export default function Portfolio() {
     {/* Choufli Code Event */}
     <div className="border border-gray-200 rounded-2xl p-4 shadow-sm hover:shadow-md transition">
       <h3 className="font-semibold text-lg mb-2"> Choufli Code — CP Event</h3>
-      <Image
+      <div className="flex flex-col sm:flex-row sm:items-center gap-4">
+        <Image
           src="/choufli_code.jpg"
           alt="Choufli Code Event Photo"
           width={400}
           height={250}
           className="rounded-xl object-cover border border-gray-200"
-      />
-      <p className="text-gray-700 mb-3">
-        Organized a creative event about competitive programming blended technology and entertainment to engage students in a fun, community-driven atmosphere, enhancing interest in computer science and teamwork.
-      </p>
-      <a
-        href="https://www.facebook.com/profile.php?id=61571891587076"
-        target="_blank"
-        className="text-blue-500 hover:underline"
-      >
-        View Event
-      </a>
+        />
+        <div>
+          <p className="text-gray-700 mb-3">
+            Organized a creative event about competitive programming blended technology and entertainment to engage students in a fun, community-driven atmosphere, enhancing interest in computer science and teamwork.
+          </p>
+          <a
+            href="https://www.facebook.com/profile.php?id=61571891587076"
+            target="_blank"
+            className="text-blue-500 hover:underline"
+          >
+            View Event
+          </a>
+        </div>
+      </div>
     </div>
 
     {/* Bizerte Collaboration */}
     <div className="border border-gray-200 rounded-2xl p-4 shadow-sm hover:shadow-md transition">
       <h3 className="font-semibold text-lg mb-2">Bizerte TCodi Collaboration</h3>
-      <Image
+      <div className="flex flex-col sm:flex-row sm:items-center gap-4">
+        <Image
           src="/bizerte_tcodi.jpg"
           alt="Bizerte TCodi Event Photo"
           width={400}
           height={250}
           className="rounded-xl object-cover border border-gray-200"
         />
-        
-      <p className="text-gray-700 mb-3">
-        Collaborated with the IEEE Student Branch of Bizerte to host a cross-chapter initiative focused on coding, innovation, and problem-solving fostering teamwork and knowledge exchange between national student communities.
-      </p>
-      <a
-        href="https://www.facebook.com/profile.php?id=61557634144817"
-        target="_blank"
-        className="text-blue-500 hover:underline"
-      >
-        View Collaboration Page
-      </a>
+        <div>
+          <p className="text-gray-700 mb-3">
+            Collaborated with the IEEE Student Branch of Bizerte to host a cross-chapter initiative focused on coding, innovation, and problem-solving fostering teamwork and knowledge exchange between national student communities.
+          </p>
+          <a
+            href="https://www.facebook.com/profile.php?id=61557634144817"
+            target="_blank"
+            className="text-blue-500 hover:underline"
+          >
+            View Event Page
+          </a>
+        </div>
+      </div>
     </div>
     {/* Codex Event */}
     <div className="border border-gray-200 rounded-2xl p-4 shadow-sm hover:shadow-md transition">
       <h3 className="font-semibold text-lg mb-2">Codex — Problem Solving Collaboration </h3>
+      <div className="flex flex-col sm:flex-row sm:items-center gap-4">
         <Image
           src="/codex.jpg"
           alt="Codex Event Photo"
@@ -351,16 +359,19 @@ export default function Portfolio() {
           height={250}
           className="rounded-xl object-cover border border-gray-200"
         />
-      <p className="text-gray-700 mb-3">
-        Organized an event for new students to introduce them to problem solving with IEEE CS ENETCOM, IEEE CS ISIMM and IEEE CS ESPRIT, featuring workshops and talks from industry experts to inspire innovative thinking among students.
-      </p>
-      <a
-        href="https://www.facebook.com/permalink.php?story_fbid=pfbid038GmFFVFjHataUChpM8Pq4Z6y5McTHYAvB7cThYDAFcMBsL5xj5hsRTFeWZQz31Qol&id=61551019357834"
-        target="_blank"
-        className="text-blue-500 hover:underline"
-      >
-        View Event
-      </a>
+        <div>
+          <p className="text-gray-700 mb-3">
+            Organized an event for new students to introduce them to problem solving with IEEE CS ENETCOM, IEEE CS ISIMM and IEEE CS ESPRIT, featuring workshops and talks from industry experts to inspire innovative thinking among students.
+          </p>
+          <a
+            href="https://www.facebook.com/permalink.php?story_fbid=pfbid038GmFFVFjHataUChpM8Pq4Z6y5McTHYAvB7cThYDAFcMBsL5xj5hsRTFeWZQz31Qol&id=61551019357834"
+            target="_blank"
+            className="text-blue-500 hover:underline"
+          >
+            View Event
+          </a>
+        </div>
+      </div>
     </div>
 
     {/* AI Chatbot Workshop */}
@@ -376,7 +387,7 @@ export default function Portfolio() {
         />
         <div>
           <p className="text-gray-700 mb-3">
-            Delivered a hands-on workshop guiding students through the process of building an intelligent chatbot using Python and NLP. The session was hosted at our student branch and focused on practical AI development techniques.
+            Delivered a hands-on workshop guiding students through the process of building an intelligent chatbot using Python and ollama. The session was hosted at our student branch and focused on practical AI development techniques.
           </p>
           <div className="flex flex-col gap-1">
             <a
@@ -406,6 +417,13 @@ export default function Portfolio() {
           <p className="text-gray-700 mb-3">
             Led an advanced workshop on Natural Language Processing techniques at the Bizerte TCodi 2.0 event. The session covered state-of-the-art NLP methods, transformer architectures, and practical implementations for text analysis and understanding.
           </p>
+          <a
+            href="https://www.facebook.com/photo/?fbid=122214944174254471&set=pcb.122214944390254471"
+            target="_blank"
+            className="text-blue-500 hover:underline"
+          >
+            View Event
+          </a>
         </div>
       </div>
     </div>
@@ -423,8 +441,15 @@ export default function Portfolio() {
         />
         <div>
           <p className="text-gray-700 mb-3">
-            Moderated a panel discussion at the Bizerte TCodi 2.0 event, facilitating conversations between industry experts and students about the future of technology, AI innovations, and career paths in the tech industry.
+            Moderated a panel discussion at the Bizerte TCodi 2.0 event, facilitating conversations between industry experts and students about IEEE and CS opportunities and how can students leverage these resources for their career development.
           </p>
+          <a
+            href="https://www.facebook.com/photo/?fbid=122214836030254471&set=pcb.122214836120254471"
+            target="_blank"
+            className="text-blue-500 hover:underline"
+          >
+            View Event
+          </a>
         </div>
       </div>
     </div>
