@@ -91,7 +91,7 @@ export default function Portfolio() {
           I'm a passionate AI and Machine Learning Engineer focused on building
           intelligent systems and autonomous AI agents. I enjoy transforming
           innovative ideas into practical, end-to-end solutions. My experience
-          spans developing multi-agent frameworks, optimizing LLM pipelines,
+          focuses on developing multi-agent frameworks, optimizing LLM pipelines,
           integrating vector databases, and deploying scalable AI services.
           Always eager to explore new technologies, I aim to design systems that
           think, adapt, and learn — just like humans.
@@ -203,29 +203,6 @@ export default function Portfolio() {
         <hr className="my-8 border-gray-200" />
       </section>
 
-      {/* Certificates */}
-      <section className="mb-12">
-        <h2 className="text-2xl font-bold mb-4">Certificates</h2>
-        <ul className="list-disc pl-6 space-y-2">
-          <li>
-            Machine Learning Specialization — Coursera
-          </li>
-          <li>
-            Generative AI with Diffusion Models — NVIDIA
-          </li>
-          <li>
-            Building Transformer-Based NLP Applications — NVIDIA
-          </li>
-          <li>
-            Getting Started with Deep Learning — NVIDIA
-          </li>
-          <li>
-            Fundamentals of Accelerated Computing with CUDA Python — NVIDIA
-          </li>
-        </ul>
-        <hr className="my-8 border-gray-200" />
-      </section>
-
       {/* Blogs */}
       <section className="mb-12">
         <h2 className="text-2xl font-bold mb-4">Publications & Blogs</h2>
@@ -278,6 +255,9 @@ export default function Portfolio() {
         <div className="flex flex-wrap gap-2 pl-2">
           {[
             "Python",
+            "JavaScript",
+            "C/C#",
+            ".NET",
             "PyTorch",
             "TensorFlow",
             "LangChain",
