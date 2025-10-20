@@ -422,7 +422,7 @@ export default function Portfolio() {
             target="_blank"
             className="text-blue-500 hover:underline"
           >
-            View Event
+            View Post
           </a>
         </div>
       </div>
@@ -448,7 +448,7 @@ export default function Portfolio() {
             target="_blank"
             className="text-blue-500 hover:underline"
           >
-            View Event
+            View Post
           </a>
         </div>
       </div>
