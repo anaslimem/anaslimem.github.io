@@ -311,7 +311,7 @@ export default function Portfolio() {
         Organized a creative event about competitive programming blended technology and entertainment to engage students in a fun, community-driven atmosphere, enhancing interest in computer science and teamwork.
       </p>
       <a
-        href="https://www.facebook.com/events/471039952511855/"
+        href="https://www.facebook.com/profile.php?id=61571891587076"
         target="_blank"
         className="text-blue-500 hover:underline"
       >
@@ -390,6 +390,45 @@ export default function Portfolio() {
         </div>
       </div>
     </div>
+
+    {/* Advanced NLP Workshop - Bizerte TCodi 2.0 */}
+    <div className="border border-gray-200 rounded-2xl p-4 shadow-sm hover:shadow-md transition">
+      <h3 className="font-semibold text-lg mb-2">Advanced NLP Techniques Workshop — Bizerte TCodi 2.0</h3>
+      <div className="flex flex-col sm:flex-row sm:items-center gap-4">
+        <Image
+          src="/Second_workshop.jpg"
+          alt="Advanced NLP Workshop Photo"
+          width={400}
+          height={250}
+          className="rounded-xl object-cover border border-gray-200"
+        />
+        <div>
+          <p className="text-gray-700 mb-3">
+            Led an advanced workshop on Natural Language Processing techniques at the Bizerte TCodi 2.0 event. The session covered state-of-the-art NLP methods, transformer architectures, and practical implementations for text analysis and understanding.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    {/* Moderator Session - Bizerte TCodi 2.0 */}
+    <div className="border border-gray-200 rounded-2xl p-4 shadow-sm hover:shadow-md transition">
+      <h3 className="font-semibold text-lg mb-2">Panel Moderator — Bizerte TCodi 2.0</h3>
+      <div className="flex flex-col sm:flex-row sm:items-center gap-4">
+        <Image
+          src="/moderator.jpg"
+          alt="Moderator Session Photo"
+          width={400}
+          height={250}
+          className="rounded-xl object-cover border border-gray-200"
+        />
+        <div>
+          <p className="text-gray-700 mb-3">
+            Moderated a panel discussion at the Bizerte TCodi 2.0 event, facilitating conversations between industry experts and students about the future of technology, AI innovations, and career paths in the tech industry.
+          </p>
+        </div>
+      </div>
+    </div>
+
   </div>
 
   <hr className="my-8 border-gray-200" />
