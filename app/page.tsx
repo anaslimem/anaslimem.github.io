@@ -104,7 +104,7 @@ export default function Portfolio() {
         <h2 className="text-2xl font-bold mb-4">Professional Experience</h2>
         <ul className="list-disc pl-6 space-y-6 text-gray-800">
           <li>
-            <strong>DrugIT</strong> — AI Engineer Intern{" "}
+            <strong>DrugIT</strong> — AI Intern{" "}
             <span className="text-gray-500">10/2025 – Present</span>
             <br />
             • Developed 4 autonomous AI agents using Google’s ADK framework to
@@ -124,7 +124,7 @@ export default function Portfolio() {
             manual analysis time by 20%.
           </li>
           <li>
-            <strong>BlueBlood</strong> — NLP Engineer Intern{" "}
+            <strong>BlueBlood</strong> — AI Intern{" "}
             <span className="text-gray-500">02/2025 – 05/2025</span>
             <br />
             • Designed a robust CV parser for diverse document formats,
