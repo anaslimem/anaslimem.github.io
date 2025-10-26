@@ -116,7 +116,7 @@ export default function Portfolio() {
           </li>
           <li>
             <strong>Vision Age VFX</strong> — AI Intern{" "}
-            <span className="text-gray-500">09/2025 – 11/2025</span>
+            <span className="text-gray-500">09/2025 – 10/2025</span>
             <br />
             • Built a feedback-driven model that automatically generates metric
             reports from performance data.<br />
