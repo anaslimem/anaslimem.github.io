@@ -209,6 +209,19 @@ export default function Portfolio() {
         <ul className="list-disc pl-6 space-y-4">
           <li>
             <strong>
+              Positional Encoding Explained: How Transformers Understand Word Order
+            </strong>
+            <br />
+            <a
+              href="https://medium.com/@limemanas0/have-you-ever-wondered-how-a-large-language-model-llm-knows-the-order-of-words-after-it-turns-f598fc3c6cc9"
+              className="text-blue-500 hover:underline"
+              target="_blank"
+            >
+              Read on Medium
+            </a>
+          </li>
+          <li>
+            <strong>
               Understanding REFRAG: Efficient LLM Compression and Curriculum
               Learning Explained
             </strong>
